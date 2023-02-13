@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #340F59;
+    height: 175px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLogo {
+    height: 68px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-left: 54px;
+}
+
+nav div ul {
+    display: flex;
+    padding-right: 30px;
+}
+
+.navBarItem {
+    line-height: 175px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav div ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+}
+
+.carousel {
+    position: absolute;
+    height: 766px;
+}
+
+.cards {
+    background-image: url("../assets/fondo-cards.png");
+    height: 950px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardBox {
+    width: 500px;
+}
+
+.cardTitle {
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.cardText {
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.cardButton a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;;
+    font-weight: bold;
+}
+
+.cardButton {
+    text-align: center;
+    background-color: #F25D07;
+    width: 170px;
+    margin: 0 auto;
+    border-radius: 100px;
+    font-size: 28px;
+    padding: 5px 10px;
+    margin-top: 50px;
+}
