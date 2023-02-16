@@ -63,6 +63,7 @@ nav div ul li a {
     background-image: url("../assets/fondo-cards.png");
     height: 950px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -139,6 +140,10 @@ nav div ul li a {
     font-size: 18px;
 }
 
+.footerLinks {
+    margin-left: -400px;
+}
+
 .footerLinks ul li {
     padding: 20px;
     font-size: 20px;
@@ -152,6 +157,7 @@ nav div ul li a {
 .footerRedes {
     display: flex;
     padding: 30px;
+    margin-left: -400px;
 }
 
 .redLogo {
