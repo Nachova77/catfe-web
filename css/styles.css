@@ -1,3 +1,5 @@
+/* Main config */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +14,8 @@ html {
     margin: 0 auto;
     background-color: #F25D07;
 }
+
+/* Header style */
 
 header {
     background-color: #340F59;
@@ -47,6 +51,8 @@ nav div ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+
+/*Body style */
 
 .carousel {
     height: 766px;
@@ -106,6 +112,8 @@ nav div ul li a {
     padding: 5px 10px;
     margin-top: 50px;
 }
+
+/* Footer style */
 
 .footerUp {
     display: flex;
