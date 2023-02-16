@@ -4,11 +4,13 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 html {
     max-width: 1920px;
     margin: 0 auto;
+    background-color: #F25D07;
 }
 
 header {
@@ -43,13 +45,12 @@ nav div ul li a {
     color: white;
     font-size: 20px;
     text-decoration: none;
-    font-family: 'Red Hat Display', sans-serif;
     font-weight: bold;
 }
 
 .carousel {
-    position: absolute;
     height: 766px;
+    position: absolute;
 }
 
 .cards {
@@ -64,8 +65,18 @@ nav div ul li a {
     width: 500px;
 }
 
+.cardImage {
+    width: 400px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cardBoxImg {
+    display: flex;
+    justify-content: center;
+}
+
 .cardTitle {
-    font-family: 'Red Hat Display', sans-serif;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -74,16 +85,14 @@ nav div ul li a {
 
 .cardText {
     color: white;
-    font-family: 'Red Hat Display', sans-serif;
     text-align: center;
     font-size: 28px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .cardButton a {
     text-decoration: none;
     color: white;
-    font-family: 'Red Hat Display', sans-serif;;
     font-weight: bold;
 }
 
@@ -96,4 +105,70 @@ nav div ul li a {
     font-size: 28px;
     padding: 5px 10px;
     margin-top: 50px;
+}
+
+.footerUp {
+    display: flex;
+    background-color: #340F59;
+    color: white;
+    justify-content: space-between;
+    padding: 50px 35px;
+    align-items: center;
+}
+
+.locationTitle {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.locationMap {
+    width: 500px;
+}
+
+.locationDescription {
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+.footerLinks ul li {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.footerLinks ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerRedes {
+    display: flex;
+    padding: 30px;
+}
+
+.redLogo {
+    padding: 20px;
+}
+
+.redName {
+    font-size: 20px;
+    margin: auto 0;
+}
+
+.footerDown {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F25D07;
+    color: white;
+    border: solid 1px black;
+    height: 175px;
+    padding: 30px;
+}
+
+.footerDownLeft {
+    margin: auto 0;
+}
+
+.footerDownRight {
+    margin: auto 0;
 }
