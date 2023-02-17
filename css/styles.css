@@ -54,8 +54,13 @@ nav div ul li a {
 
 /*Body style */
 
-.carousel {
-    height: 75vh;
+.carousel-item {
+    height: 80vh;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
 }
 
 .cards {
