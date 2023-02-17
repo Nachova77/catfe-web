@@ -70,8 +70,8 @@ nav div ul li a {
 
 .overCarousel {
     position: absolute;
-    top: 300px;
-    left: 100px;
+    margin-top: 50px;
+    margin-left: 100px;
     z-index: 1;
     width: 400px;
 }
@@ -256,7 +256,7 @@ nav div ul li a {
         transition: all 0.5s;
     }
 
-    #check:checked + .responsiveMenu {
+    #check:checked+.responsiveMenu {
         left: 0%;
     }
 
