@@ -11,6 +11,7 @@
 
 html {
     max-width: 1920px;
+    padding: 0px 100px;
     margin: 0 auto;
     background-color: #F25D07;
 }
