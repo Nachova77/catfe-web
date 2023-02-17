@@ -235,7 +235,21 @@ nav div ul li a {
 
 /* Mobile style */
 
+@media screen and (max-width: 1699px) {
+
+    .cards {
+        height: 1800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
 @media screen and (max-width: 1499px) {
+
+    html {
+        padding: 0px
+    }
 
     .navRight {
         display: none;
