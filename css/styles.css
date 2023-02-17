@@ -233,8 +233,6 @@ nav div ul li a {
     margin: auto 0;
 }
 
-/* Mobile style */
-
 @media screen and (max-width: 1699px) {
 
     .cards {
@@ -249,41 +247,6 @@ nav div ul li a {
 
     html {
         padding: 0px
-    }
-
-    .navRight {
-        display: none;
-    }
-
-    .bars {
-        display: block;
-        font-size: 50px;
-        line-height: 175px;
-        margin-right: 50px;
-    }
-
-    .responsiveMenu {
-        display: block;
-        position: absolute;
-        z-index: 1;
-        background-color: #F25D07;
-        width: 100vw;
-        height: 100vh;
-        text-align: center;
-        left: -100%;
-        transition: all 0.5s;
-    }
-
-    #check:checked+.responsiveMenu {
-        left: 0%;
-    }
-
-    .responsiveMenu ul li a {
-        text-decoration: none;
-        color: white;
-        font-size: 30px;
-        font-weight: bold;
-        line-height: 160px;
     }
 
     .cards {
@@ -332,6 +295,42 @@ nav div ul li a {
 }
 
 @media screen and (max-width: 999px) {
+
+    
+    .navRight {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+        font-size: 50px;
+        line-height: 175px;
+        margin-right: 50px;
+    }
+
+    .responsiveMenu {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        background-color: #F25D07;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        left: -100%;
+        transition: all 0.5s;
+    }
+
+    #check:checked+.responsiveMenu {
+        left: 0%;
+    }
+
+    .responsiveMenu ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 160px;
+    }
 
     .cards {
         padding-top: 1px;
