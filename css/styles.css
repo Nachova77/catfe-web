@@ -68,6 +68,24 @@ nav div ul li a {
     display: none;
 }
 
+.overCarousel {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    z-index: 1;
+    width: 400px;
+}
+
+.textOverCarousel {
+    margin-top: 50px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .carousel {
     z-index: 0;
 }
