@@ -375,6 +375,20 @@ nav div ul li a {
 
 }
 
+@media screen and (max-width: 580px) {
+
+    .overCarousel {
+        margin-left: 20%;
+        margin-top: 30%;
+        width: 250px;
+    }
+
+    .textOverCarousel {
+        font-size: 17px;
+    }
+
+}
+
 @media screen and (max-width: 400px) {
 
     .locationMap {
