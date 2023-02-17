@@ -20,6 +20,7 @@ html {
 header {
     background-color: #340F59;
     height: 175px;
+    z-index: 1;
 }
 
 nav {
@@ -52,7 +53,24 @@ nav div ul li a {
     font-weight: bold;
 }
 
+.bars {
+    color: #F25D07;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
 /*Body style */
+
+.responsiveMenu {
+    display: none;
+}
+
+.carousel {
+    z-index: 0;
+}
 
 .carousel-item {
     height: 80vh;
@@ -199,6 +217,37 @@ nav div ul li a {
 
     .navRight {
         display: none;
+    }
+
+    .bars {
+        display: block;
+        font-size: 50px;
+        line-height: 175px;
+        margin-right: 50px;
+    }
+
+    .responsiveMenu {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        background-color: #F25D07;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        left: -100%;
+        transition: all 0.5s;
+    }
+
+    #check:checked ~ .responsiveMenu {
+        left: 0%;
+    }
+
+    .responsiveMenu ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 160px;
     }
 
     .cards {
