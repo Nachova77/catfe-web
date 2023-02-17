@@ -55,7 +55,7 @@ nav div ul li a {
 /*Body style */
 
 .carousel {
-    height: 766px;
+    height: 85vh;
 }
 
 .cards {
@@ -186,4 +186,128 @@ nav div ul li a {
 
 .footerDownRight {
     margin: auto 0;
+}
+
+/* Mobile style */
+
+@media screen and (max-width: 1499px) {
+
+    .navRight {
+        display: none;
+    }
+
+    .cards {
+        height: 1800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+
+    .footerUp {
+        flex-direction: column;
+    }
+
+    .mapBox {
+        text-align: center;
+    }
+
+    .locationMap {
+        width: 400px;
+        height: 400px;
+    }
+
+    .locationDescription {
+        margin-bottom: 50px;
+    }
+
+    .footerLinks {
+        text-align: center;
+        margin: 0;
+    }
+
+    .footerLinks ul {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .footerRedes {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 999px) {
+
+    .cards {
+        padding-top: 1px;
+        height: 2200px;
+        display: block;
+    }
+
+    .cardBox {
+        width: 500px;
+        margin: 100px auto;
+    }
+    
+    .cardImage {
+        width: 300px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .cardTitle {
+        font-size: 30px;
+    }
+    
+    .cardText {
+        font-size: 18px;
+    }
+    
+    .cardButton {
+        width: 120px;
+        font-size: 18px;
+    }
+
+    .footerLogo {
+        height: 70px;
+        padding-left: 50px;
+    }
+
+    .headerLogoImg {
+        height: 70px;
+        margin-top: 20px;
+    }
+
+    .cardBox {
+        width: 300px;
+        margin: 100px auto;
+    }
+
+    .locationMap {
+        width: 380px;
+        height: 380px;
+    }
+
+    .footerDownLeft {
+        font-size: 13px;
+    }
+
+    .headerLogo {
+        padding-left: 15px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .locationMap {
+        width: 330px;
+        height: 330px;
+    }
+    
 }
