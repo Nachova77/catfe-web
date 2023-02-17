@@ -30,9 +30,12 @@ nav {
 
 .headerLogo {
     height: 68px;
-    padding-top: 31px;
-    padding-bottom: 31px;
+    line-height: 175px;
     padding-left: 54px;
+}
+
+.headerLogoImg {
+    height: 100px;
 }
 
 nav div ul {
@@ -352,7 +355,7 @@ nav div ul li a {
 
     .headerLogoImg {
         height: 70px;
-        margin-top: 20px;
+        padding-left: 25px;
     }
 
     .cardBox {
