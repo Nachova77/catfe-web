@@ -22,7 +22,7 @@ html {
 
 header {
     background-color: #340F59;
-    height: 175px;
+    height: 100px;
     z-index: 100;
 }
 
@@ -33,12 +33,12 @@ nav {
 
 .headerLogo {
     height: 68px;
-    line-height: 175px;
+    line-height: 100px;
     padding-left: 54px;
 }
 
 .headerLogoImg {
-    height: 100px;
+    height: 50px;
 }
 
 nav div ul {
@@ -47,14 +47,14 @@ nav div ul {
 }
 
 .navBarItem {
-    line-height: 175px;
+    line-height: 100px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
 nav div ul li a {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -223,8 +223,8 @@ nav div ul li a {
     background-color: #F25D07;
     color: white;
     border: solid 1px black;
-    height: 175px;
-    padding: 30px;
+    height: 70px;
+    padding: 0 10px;
 }
 
 .footerDownLeft {
@@ -233,6 +233,10 @@ nav div ul li a {
 
 .footerDownRight {
     margin: auto 0;
+}
+
+.footerLogo {
+    height: 30px;
 }
 
 @media screen and (max-width: 1699px) {
@@ -305,15 +309,15 @@ nav div ul li a {
 
     .bars {
         display: block;
-        font-size: 50px;
-        line-height: 175px;
+        font-size: 30px;
+        line-height: 100px;
         margin-right: 50px;
     }
 
     .responsiveMenu {
         display: block;
         position: absolute;
-        margin-top: 165px;
+        margin-top: 100px;
         z-index: 2;
         background-color: #F25D07;
         width: 100vw;
@@ -363,11 +367,6 @@ nav div ul li a {
     .cardButton {
         width: 120px;
         font-size: 18px;
-    }
-
-    .footerLogo {
-        height: 70px;
-        padding-left: 50px;
     }
 
     .headerLogoImg {
