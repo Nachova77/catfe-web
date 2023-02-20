@@ -23,7 +23,7 @@ html {
 header {
     background-color: #340F59;
     height: 175px;
-    z-index: 1;
+    z-index: 100;
 }
 
 nav {
@@ -313,25 +313,26 @@ nav div ul li a {
     .responsiveMenu {
         display: block;
         position: absolute;
+        margin-top: 165px;
         z-index: 2;
         background-color: #F25D07;
         width: 100vw;
-        height: 700px;
+        height: 430px;
         text-align: center;
-        left: -100%;
+        top: -150%;
         transition: all 0.5s;
     }
 
     #check:checked+.responsiveMenu {
-        left: 0%;
+        top: 0%;
     }
 
     .responsiveMenu ul li a {
         text-decoration: none;
         color: white;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
-        line-height: 160px;
+        line-height: 110px;
     }
 
     .cards {
