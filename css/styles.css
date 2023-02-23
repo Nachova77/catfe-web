@@ -314,6 +314,10 @@ nav div ul li a {
         margin-right: 50px;
     }
 
+    .responsiveMenu ul {
+        margin-left: -15px;
+    }
+
     .responsiveMenu {
         display: block;
         position: absolute;
