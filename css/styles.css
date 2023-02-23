@@ -564,3 +564,130 @@ nav div ul li a {
     }
 
 }
+
+/* Nosotros */
+
+.nosotrosMain {
+    background-image: url(../assets/fondo-cards.png);
+    background-size: cover;
+}
+
+.nosotrosBoxImg {
+    background-image: url(../assets/NosotrosImg.png);
+    height: 70vh;
+    background-size: cover;
+}
+
+.historiaBox {
+    text-align: center;
+}
+
+.historiaImg {
+    padding: 100px 0px;
+    width: 500px;
+}
+
+.historiaText {
+    color: white;
+    text-align: justify;
+    width: 60vw;
+    margin: 0 auto;
+    font-size: 30px;
+    padding-bottom: 100px;
+}
+
+.losMichisTitleBox {
+    text-align: center;
+}
+
+.losMichisTitleImg {
+    width: 1000px;
+}
+
+.michisBox {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    padding-bottom: 0px;
+    flex-wrap: wrap;
+}
+
+.cardMichi {
+    padding: 0px 50px;
+    padding-bottom: 50px;
+}
+
+.cardButtonMichi {
+    color: white;
+    text-align: center;
+    margin: 50px auto;
+    background-color: #F25D07;
+    font-size: 30px;
+    width: 150px;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1160px) {
+
+    .nosotrosBoxImg {
+        height: 50vh;
+    }
+
+}
+
+@media screen and (max-width: 1499px) {
+    .historiaText {
+        width: 75vw;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+
+    .historiaImg {
+        width: 45vw;
+    }
+
+    .losMichisTitleImg {
+        width: 90vw;
+    }
+
+    .historiaText {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+
+    .nosotrosBoxImg {
+        height: 35vh;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+
+    .nosotrosBoxImg {
+        height: 30vh;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .michiImg {
+        width: 80vw;
+    }
+
+    .cardButtonMichi {
+        font-size: 25px;
+    }
+
+    .cardMichi {
+        padding: 0px
+    }
+
+
+}
