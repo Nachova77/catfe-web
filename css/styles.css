@@ -677,6 +677,11 @@ nav div ul li a {
 
 @media screen and (max-width: 500px) {
 
+    .historiaText {
+        font-size: 20px;
+    }
+
+
     .michiImg {
         width: 80vw;
     }
